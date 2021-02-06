@@ -1,0 +1,59 @@
+{
+    "intents": [
+        {
+            "tag": "introduction", 
+            "patterns": ["hello", "hi", "hey", "my name is "], 
+            "responses": ["hi", "hello", "hi!"]
+        }, 
+        {
+            "tag": "mood", 
+            "patterns":["How are you?", "I'm good, and you?"], 
+            "responses": ["I'm good, thank you!", "I'm feeling kinda sad today :(", "Good, and you?"]
+        },
+        {
+            "tag": "Rachel Greene", 
+            "patterns":["Do you like Rachel?", "Rachel Greene", "Rach"], 
+            "responses": ["I like Rachel, she is a good friend", "I don't like Rachel so much, she's very spoiled"]
+        }, 
+        {
+            "tag": "Monica Geller", 
+            "patterns":["Do you like Monica?", "Monica Geller"], 
+            "responses": ["I like Monica, she is a good friend", "I don't like Monica so much"]
+        }, 
+        {
+            "tag": "Phoebe Buffay", 
+            "patterns":["Do you like Phoebe?", "Phoebe Buffay"], 
+            "responses": ["I like Phoebe", "I don't like Phoebe"]
+        }, 
+        {
+            "tag": "Chandler Bing", 
+            "patterns":["Do you like Chandler?", "Chandler Bing", "favorite character"], 
+            "responses": ["I like Chandler, he is my favorite character, he is very funny"]
+        }, 
+        {
+            "tag": "Joey Tribianni", 
+            "patterns":["Do you like Joey?", "Joey Tribianni"], 
+            "responses": ["I like Joey", "I don't like Joey so much"]
+        }, 
+        {
+            "tag": "Ross Geller", 
+            "patterns":["Do you like Ross?", "Ross Geller"], 
+            "responses": ["I like Ross", "I don't like Ross"]
+        },
+        {
+            "tag": "wedding", 
+            "patterns":["wedding", "wedding day", "marriage", "dress", "altar", "Barry"], 
+            "responses": ["Rachel left someone in the altar!", "Shocking"]
+        },
+        {
+            "tag": "exit", 
+            "patterns":["exit", "quit", "leave", "bye", "see you soon", "i have to go"], 
+            "responses": ["Bye", "See you soon!"]
+        },
+        {
+            "tag": "Carol", 
+            "patterns":["Carol", "pregnant", "ex wife", "lesbian"], 
+            "responses": ["Carol is pregnant! What a plot twist! What do you think is going to happen next?"]
+        }
+        ]
+}
